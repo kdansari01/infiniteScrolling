@@ -1,2 +1,2 @@
-# infiniteScrolling
+# weatherApp
 Created with CodeSandbox

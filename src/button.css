@@ -1,0 +1,31 @@
+button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(238, 122, 14);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: opacity 0.2s inline;
+}
+
+button:hover {
+  background-color: black;
+}
+
+/* Styles to show/hide the scroll button */
+.show-scroll-button {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hide-scroll-button {
+  opacity: 0;
+  visibility: hidden;
+}
